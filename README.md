@@ -1,2 +1,2 @@
 # DiscnodeJS
-A library intended to make working with DiscordJS a bit easier.
+A groundwork application for DiscordJS bot development
