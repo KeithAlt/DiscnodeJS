@@ -1,13 +1,13 @@
 const config = require(`./config/config.json`);
 
+var express = require(`express`);
+var bodyParser = require(`body-parser`);
+var cookieParser = require(`cookie-parser`);
+
 if (!config.express.enabled) {
   console.log(`[${config.bot.name}] Express: Halting initalization of server\n(disabled in config)`)
   return;
 }
-
-var express = require(`express`);
-var bodyParser = require(`body-parser`);
-var cookieParser = require(`cookie-parser`);
 
 var app = express();
 const port = config.express.port;
