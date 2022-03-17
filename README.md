@@ -1,5 +1,5 @@
 # DiscnodeJS
-A groundwork application for DiscordJS bot development
+A groundwork application for DiscordJS bot development with Express server support.
 
 TODO:
 - Improve role check util
