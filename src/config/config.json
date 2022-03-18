@@ -1,26 +1,15 @@
 {
-    "app": {
-        "app_id": "production",
-        "app_name": "generic_utility_bot",
-        "secret": false,
-    },
+	"app": {
+		"app_id": "production",
+		"app_name": "generic_utility_bot",
+		"secret": false
+	},
     "bot": {
-      "name": "generic_discord_bot",
-      "cmdPrefix": "!",
-      "commandChannel": false,
-    },
-    "discord": {
-        "token": "insert_discord_token",
+		"name": "generic_discord_bot",
+		"cmdPrefix": "!",
+		"commandChannel":false
     },
     "express": {
-        "enabled": true,
-        "port": 80,
-    },
-    "database": {
-        "hostname": false,
-        "username": false,
-        "password": false,
-        "schema": false,
-        "port": false,
+		"enabled":true
     }
 }
