@@ -5,4 +5,3 @@ TODO:
 - Improve role check util
 - Reorganize util funcs & vars
 - Add logging & cleanup
-- Add Docker support
